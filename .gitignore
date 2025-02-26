@@ -34,3 +34,6 @@ node_modules/
 .env
 *.properties
 *.config
+
+# Archivo CSV específico
+ATP.csv
