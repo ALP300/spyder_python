@@ -1,0 +1,36 @@
+# Archivos de Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Archivos de Eclipse
+.classpath
+.project
+.settings/
+
+# Archivos de IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación y dependencias
+bin/
+*.class
+
+dist/
+node_modules/
+
+# Variables de entorno y configuraciones locales
+.env
+*.properties
+*.config
