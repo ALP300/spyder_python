@@ -1,0 +1,11 @@
+import pandas as pd
+df= pd.read_csv("canciones.csv")
+print(df.info())
+print(df)
+print("\n"*4)
+filas= len(df.index)
+print("Filas: ", filas)
+df.drop(df.index[[filas-1]], inplace=True)
+filas= len(df.index)
+print("Filas: ", filas)
+print(df)
